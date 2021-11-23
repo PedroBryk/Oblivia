@@ -1,0 +1,69 @@
+ @media(max-width: 600px){
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-left{
+        display: none;
+    }
+
+    .header-back{
+        width: 100vw;
+    }
+
+    .titulo{
+        font-size: 18px;
+        
+    }
+
+    .texto{
+        font-size: 18px;
+        
+    }
+
+    .dog{
+        place-items: center;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .down-btn-resp{
+        display: block;
+    }
+
+    .carteirinha{
+        width: 80%;
+    }
+
+    .contato{
+        display: none;
+    }
+
+    .info-dono, .info-contato{
+        display: block;
+    }
+
+ }
+
+ @media(max-width: 1024px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-left{
+        display: none;
+    }
+
+    .header-back{
+        width: 100vw;
+        height: 100vh;
+    }
+
+ }
