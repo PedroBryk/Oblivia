@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/icons.css">
+    <link rel="stylesheet" href="./assets/css/carteirinha.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <title>OBLIVIA | Cadastrar pet</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header-back">
+            <div class="logo">
+                <img clas="logo-img" src="./assets/img/logo.png">
+            </div>
+            <div class="titulo">
+                <h2>Cadastre seu pet</h2>
+            </div>
+            <div class="texto">
+                <p>Para quando levar seu pet a uma de nossas clínicas já sabemos de tudo sobre ele, ficando fácil de dar o melhor tratamento, além disso receba uma carteirinha de identificação exclusiva para seu melhor amigo.</p>
+            </div>
+        </section>
+        <section class="formulario">
+        <section class="icons">
+            <div class="titulo">
+                <h3>Escolha um ícone para seu pet</h3>
+            </div>
+            <div class="images">
+                <div class="image-1">
+                    
+                </div>
+                <div class="image-2">
+                    
+                </div>
+                <div class="image-3">
+                    
+                </div>
+                <div class="image-4">
+                    
+                </div>
+                
+            </div>
+        </section>
+            <form class="dados">
+                <div class="nomes">
+                    <input type="text" class="input-text" id="nome-pet" placeholder="Nome do seu Pet">
+                    <input type="text" class="input-text" id="nome-dono" placeholder="Nome do dono(a)">
+                    <input type="email" class="input-text" id="email" placeholder="E-mail de contato">
+                
+                    <input type="text" class="input-text" id="especie-cao" placeholder="Espécie (Ex: Cachorro)">
+                    <input type="text" class="input-text" id="raça-cao" placeholder="Raça (Ex: Vira-lata)">
+                    <input type="text" class="input-text" id="pelagem-cao" placeholder="Pelagem (Ex: Caramelo)">
+                    <input type="text" class="input-text" id="sexo-cao" placeholder="Sexo (Ex: Feminino)">
+                    <input type="date" class="input-text" id="nascimento-cao" placeholder="Nascimento">
+                </div>
+                <div class="botao">
+                    <button class="btn">Enviar</button>
+                </div>
+                <div class="botao-resp">
+                    <input type="button" class="down-btn-resp" value="Imprimir" onclick="print()">
+                </div>
+            </form>
+        </section>
+        <section class="header-left">
+            <img class="dog-left" src="./assets/img/Cabeçalho-esquerdo.png">
+        </section>
+    </header>
+    <main>
+        <div class="titulo-2">
+            <h2>Após o término do preenchimento sua carteirinha aparecerá aqui</h2>
+        </div>
+        <section id="carteirinha-nav" class="carteirinha-back">
+            <section class="carteirinha">
+                <div class="names">
+                    <div class="image-5"></div>
+                    <h3 class="nome-pet"></h3>
+                </div>
+                <div class="contato">
+                    <p>Dono(a):</p><h4 class="nome-dono"></h4>
+                    <p>Contato:</p><h4 class="email"></h4>
+                </div>
+                <div class="info">
+                    <div class="info-dono">
+                        <p>Dono(a):</p><h4 class="nome-dono"></h4>
+                    </div>
+                    <div class="info-contato">
+                        
+                    </div>
+                    <div class="info-especie">
+                        <p>Espécie:</p><h4 class="especie-h"></h4>
+                    </div>
+                    <div class="info-raça">
+                        <p>Raça:</p><h4 class="raça-h"></h4>
+                    </div>
+                    <div class="info-pelagem">
+                        <p>Pelagem:</p><h4 class="pelagem-h"></h4>
+                    </div>
+                    <div class="info-sexo">
+                        <p>Sexo:</p><h4 class="sexo-h"></h4>
+                    </div>
+                    <div class="info-idade">
+                        <p>Nascimento:</p><h4 class="nascimento-h"></h4>
+                    </div>   
+                </div>
+                
+                <div class="down-button">
+                    <input type="button" class="down-btn" value="Imprimir" onclick="print()">
+                </div>
+            </section>   
+        </section>
+    </main>
+    </body>
+    <script src="./assets/javaScript/image-selected.js"></script>
+    <script src="./assets/javaScript/preenche.js"></script>
+</body>
+</html>
